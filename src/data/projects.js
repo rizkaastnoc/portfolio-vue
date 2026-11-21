@@ -1,4 +1,3 @@
-// Tambah atau ubah project di sini. "tags" dipakai untuk filter.
 export const projects = [
   {
     id: 1,
@@ -19,5 +18,15 @@ export const projects = [
     image: "/dashboard.svg",
     demo: "https://myapp-seven-olive.vercel.app",
     repo: "https://github.com/rizkaastnoc/myapp",
+  },
+  {
+    id: 3,
+    title: "Dashboard Pengajuan & Pelaporan",
+    description:
+      "Dashboard admin berbasis template TailAdmin, dengan form pengajuan dan pelaporan dana, pembelian, dan kasbon.",
+    tags: ["Vue", "Tailwind", "JavaScript"],
+    image: "/admin.svg",
+    demo: "https://my-admin-alpha-one.vercel.app",
+    repo: "https://github.com/rizkaastnoc/my-admin",
   },
 ];
